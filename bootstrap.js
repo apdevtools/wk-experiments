@@ -667,6 +667,8 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "wkexp.controller.Data": [],
+  "wkexp.view.Cont": [],
   "wkexp.view.Main": []
 });
 
@@ -1399,6 +1401,10 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "wkexp.controller.Data": [],
+  "wkexp.view.Cont": [
+    "widget.main"
+  ],
   "wkexp.view.Main": [
     "widget.main"
   ]

@@ -1,48 +1,71 @@
 Ext.define('wkexp.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
+
     requires: [
         'Ext.TitleBar',
-        'Ext.Video'
+        //'Ext.Video'
     ],
     config: {
         tabBarPosition: 'bottom',
-
+        
         items: [
             {
-                title: 'Welcome',
+                title: 'AJAX',
                 iconCls: 'home',
 
                 styleHtmlContent: true,
                 scrollable: true,
+                
+                itemId: 'ajaxPanel',
+                
+                items: [
+                    {
+                        docked: 'top',
+                        xtype: 'titlebar',
+                        title: 'Test Ajax Loading',
+                    },
+                    
+                    {
+                        xtype: 'button',
+                        itemId: 'loadAjaxBtn',
+                        text: 'Load Ajax',
+                        width: '50%',
+                        centered: true
+                    }
+                ]
 
-                items: {
-                    docked: 'top',
-                    xtype: 'titlebar',
-                    title: 'Welcome to Sencha Touch 2'
-                },
-
-                html: [
-                    "You've just generated a new Sencha Touch 2 project. What you're looking at right now is the ",
-                    "contents of <a target='_blank' href=\"app/view/Main.js\">app/view/Main.js</a> - edit that file ",
-                    "and refresh to change what's rendered here."
-                ].join("")
+                //html: [
+                //    "You've just generated a new Sencha Touch 2 project. What you're looking at right now is the ",
+                //    "contents of <a target='_blank' href=\"app/view/Main.js\">app/view/Main.js</a> - edit that file ",
+                //    "and refresh to change what's rendered here."
+                //].join("")
+                
             },
+            
             {
-                title: 'Get Started',
+                title: 'SQL',
                 iconCls: 'action',
 
                 items: [
                     {
                         docked: 'top',
                         xtype: 'titlebar',
-                        title: 'Getting Started'
+                        title: 'Test Native SQL'
                     },
+                    
                     {
-                        xtype: 'video',
-                        url: 'http://av.vimeo.com/64284/137/87347327.mp4?token=1330978144_f9b698fea38cd408d52a2393240c896c',
-                        posterUrl: 'http://b.vimeocdn.com/ts/261/062/261062119_640.jpg'
-                    }
+                        xtype: 'button',
+                        text: 'Load Data into SQL',
+                        width: '50%',
+                        centered: true
+                    },
+                    
+                    // Display the data when loaded                    
+                    //{
+                    //    xtype: 'button',
+                    //    text: 'Load Ajax'
+                    //}
                 ]
             }
         ]
