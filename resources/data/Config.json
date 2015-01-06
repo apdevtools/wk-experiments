@@ -1,0 +1,448 @@
+{
+    "level": [
+        {
+            "id": "1",
+            "Name": "Zone 1",
+            "Description": "leave-blank",
+            "unlocked": "true",
+            "Mission": [
+                {
+                    "id": "1",
+                    "Name": "Challenge 1",
+                    "title": "Welcome!",
+                    "description": "Let's start this off nice and easy. You have unlimited time to answer five questions.",
+                    "MissionType": "Free Style",
+                    "condition": [
+                        {
+                            "TotalQuizToPlay": 2,
+                            "TimeAlowedPerQuiz": 0
+                        }
+                    ]
+                }
+             ],
+            "QuizGrid": [
+                {
+                    "id": "Q1",
+                    "topic": "Film",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q2",
+                    "topic": "Food and Drink",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q3",
+                    "topic": "General Knowledge",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q4",
+                    "topic": "Geography",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q5",
+                    "topic": "History",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q6",
+                    "topic": "Music",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q7",
+                    "topic": "Sport and Football",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q8",
+                    "topic": "TV and Radio",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q9",
+                    "topic": "Film",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q10",
+                    "topic": "Food and Drink",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q11",
+                    "topic": "General Knowledge",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q12",
+                    "topic": "Geography",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q13",
+                    "topic": "History",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q14",
+                    "topic": "Music",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q15",
+                    "topic": "Sport and Football",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q16",
+                    "topic": "TV and Radio",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q17",
+                    "topic": "Film",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q18",
+                    "topic": "Food and Drink",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q19",
+                    "topic": "General Knowledge",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q20",
+                    "topic": "Geography",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q21",
+                    "topic": "History",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q22",
+                    "topic": "Music",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q23",
+                    "topic": "Sport and Football",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q24",
+                    "topic": "TV and Radio",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q25",
+                    "topic": "Film",
+                    "NumberOfQuestions": "5"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "Name": "Zone 2",
+            "Description": "leave-blank",
+            "unlocked": "false",
+            "Mission": [
+                {
+                    "id": "2",
+                    "Name": "Challenge 1",
+                    "title": "You're doing well.",
+                    "description": "For this Challenge again you have two Quizzes and have unlimited time to answer the five questions per Quiz.",
+                    "MissionType": "Free Style",
+                    "condition": [
+                        {
+                            "TotalQuizToPlay": 1,
+                            "TimeAlowedPerQuiz": 0
+                        }
+                    ]
+                }
+            ],
+            "QuizGrid": [
+                {
+                    "id": "Q26",
+                    "topic": "Food and Drink",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q27",
+                    "topic": "General Knowledge",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q28",
+                    "topic": "Geography",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q29",
+                    "topic": "History",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q30",
+                    "topic": "Music",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q31",
+                    "topic": "Sport and Football",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q32",
+                    "topic": "TV and Radio",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q33",
+                    "topic": "Film",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q34",
+                    "topic": "Food and Drink",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q35",
+                    "topic": "General Knowledge",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q36",
+                    "topic": "Geography",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q37",
+                    "topic": "History",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q38",
+                    "topic": "Music",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q39",
+                    "topic": "Sport and Football",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q40",
+                    "topic": "TV and Radio",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q41",
+                    "topic": "Film",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q42",
+                    "topic": "Food and Drink",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q43",
+                    "topic": "General Knowledge",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q44",
+                    "topic": "Geography",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q45",
+                    "topic": "History",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q46",
+                    "topic": "Music",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q47",
+                    "topic": "Sport and Football",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q48",
+                    "topic": "TV and Radio",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q49",
+                    "topic": "Film",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q50",
+                    "topic": "Food and Drink",
+                    "NumberOfQuestions": "5"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "Name": "Zone 3",
+            "Description": "leave-blank",
+            "unlocked": "false",
+            "Mission": [
+                {
+                    "id": "3",
+                    "Name": "Challenge 1",
+                    "title": "Now it gets tougher.",
+                    "description": "You have four Quizzes but now you have a time limit of 75 seconds to complete each Quiz.",
+                    "MissionType": "Free Style",
+                    "condition": [
+                        {
+                            "TotalQuizToPlay": 1,
+                            "TimeAlowedPerQuiz": 75
+                        }
+                    ]
+                }
+            ],
+            "QuizGrid": [
+                {
+                    "id": "Q51",
+                    "topic": "General Knowledge",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q52",
+                    "topic": "Geography",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q53",
+                    "topic": "History",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q54",
+                    "topic": "Music",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q55",
+                    "topic": "Sport and Football",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q56",
+                    "topic": "TV and Radio",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q57",
+                    "topic": "Film",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q58",
+                    "topic": "Food and Drink",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q59",
+                    "topic": "General Knowledge",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q60",
+                    "topic": "Geography",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q61",
+                    "topic": "History",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q62",
+                    "topic": "Music",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q63",
+                    "topic": "Sport and Football",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q64",
+                    "topic": "TV and Radio",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q65",
+                    "topic": "Film",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q66",
+                    "topic": "Food and Drink",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q67",
+                    "topic": "General Knowledge",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q68",
+                    "topic": "Geography",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q69",
+                    "topic": "History",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q70",
+                    "topic": "Music",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q71",
+                    "topic": "Sport and Football",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q72",
+                    "topic": "TV and Radio",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q73",
+                    "topic": "Film",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q74",
+                    "topic": "Food and Drink",
+                    "NumberOfQuestions": "5"
+                },
+                {
+                    "id": "Q75",
+                    "topic": "General Knowledge",
+                    "NumberOfQuestions": "5"
+                }
+            ]
+        }
+    ]
+}
