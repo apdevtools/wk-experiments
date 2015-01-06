@@ -33,7 +33,7 @@ Ext.define('wkexp.controller.Data', {
         var me = this;
         
         Ext.Ajax.on('beforerequest',this.updateBtn('Request started','disabled'),me);
-        Ext.Ajax.on('requestcomplete',this.updateBtn('Request completed..loading data'),me);
+        Ext.Ajax.on('requestcomplete',this.updateBtn('Request completed..loading data','disabled'),me);
         //Ext.Ajax.on('requestexception',this.updateBtn('Request excepted, try again','disabled'),me);
         
         Ext.Ajax.request({
@@ -45,7 +45,6 @@ Ext.define('wkexp.controller.Data', {
             
             success: function(response){
                 
-                this.updateBtn('Loading data','enabled');
                 me.displayData(response);
                 this.updateBtn('Clear data','enabled','tap2');
                 
@@ -72,14 +71,13 @@ Ext.define('wkexp.controller.Data', {
         if(state!=undefined){
             
             if(state=='enabled'){
-                state==false
-            }
-            
-            if(state=='disabled'){
-                state==true
-            }
-            
-            btn.setDisabled(state);
+                
+                btn.setDisabled(false);
+                
+            } else if(state=='disabled'){
+                
+                btn.setDisabled(true);
+            } 
             
         }
         

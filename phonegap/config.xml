@@ -32,6 +32,9 @@
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
     
+    <!-- Plugin - Wkwebview for iOS8 --> 
+    <gap:plugin name="com.apmano.plugins.wkwebview" version="0.3.4"/>
+    
     <!-- Disable until required
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
